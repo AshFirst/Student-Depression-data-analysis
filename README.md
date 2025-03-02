@@ -1,17 +1,17 @@
-## Student-Depression-data-analysis
+# Student-Depression-data-analysis
 
 This project analyzes student depression using SQL for data preprocessing and Tableau for visualization. It explores various factors affecting mental health, including study hours, financial stress, sleep duration, and academic pressure.
 
-# Project Overview
+## Project Overview
 Dataset: Depression+Student+Dataset (SQL Server)
 Preprocessing: Data cleaning and transformation using SQL
 Visualization: Interactive dashboards in Tableau
 
-# Tech Stack
+## Tech Stack
 SQL Server (Data Processing)
 Tableau (Data Visualization)
 
-# Steps Performed
+## Steps Performed
 1. Data Cleaning & Standardization (SQL)
 Standardized Gender values (Male → M, Female → F)
 Categorized age groups (18-24 → A1, 25-30 → A2, 30+ → A3)
@@ -27,20 +27,20 @@ Financial Stress
 Family History of Mental Illness
 Depression Status
 
-# Data Visualization (Tableau Dashboard)
+## Data Visualization (Tableau Dashboard)
 Study Hours vs. Student Count (Trend analysis)
 Sleep Duration vs. Student Count (Bubble chart)
 Academic Pressure, Financial Stress, and Study Satisfaction (Bar charts)
 
-# Error Handling
+## Error Handling
 Resolved a Tableau timeout issue (5000ms exceeded) by optimizing queries and indexing
 
-# How to Use
+## How to Use
 Import Data into SQL Server
 Run SQL Queries for preprocessing
 Load Processed Data into Tableau
 Explore Interactive Dashboards
 
-# Future Enhancements
+## Future Enhancements
 Expand dataset for deeper analysis
 Improve query efficiency for faster Tableau performance
